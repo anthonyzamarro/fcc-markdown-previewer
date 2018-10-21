@@ -1,3 +1,13 @@
 body {
-	background: blue;
+	background: green;
+	p {
+		font-size: 30px;
+		font-family: 'Lato';
+		background: orange;
+		color: purple;
+		&:hover {
+			font-size: 54px;
+			color: magenta;
+		}
+	}
 }
