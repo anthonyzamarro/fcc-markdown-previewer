@@ -1,25 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TextArea from './TextArea.js';
+import Previewer from './Previewer.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p id="test">
-            cypress
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="main-container">
+        <h1>Markdown Previewer</h1>
+
+        <TextArea /> <Previewer />
       </div>
     );
   }
