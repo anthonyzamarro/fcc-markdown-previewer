@@ -1,5 +1,5 @@
 const defaultState = {
-  init: "# Heading One \n\n## Heading Two \n\n`<div>`\n\n``` \n\nSome Code ```\n\n[I'm an inline-style link](https://www.google.com)\n\n >> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.\n\n 1. First Item \n\n 2. Second Item \n\n\n\n ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')\n\n\n\n**asterisks**"
+  init: "# h1 heading \n\n## h2 heading \n\n`inline block of code`\n\n``` \n\n multi-line block of code ```\n\n[I'm an inline-style link](https://www.google.com)\n\n >> A blockquote.\n\n 1. first list item \n\n 2. second list item \n\n\n\n Here's an image: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')\n\n\n\n**Some bolded text**"
 };
 
 export default (state = defaultState, action) => {

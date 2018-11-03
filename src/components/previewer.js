@@ -17,7 +17,8 @@ class Preview extends Component {
       <div class="container preview-container">
         <h1>Preview</h1>
         <hr />
-        <p id="preview" dangerouslySetInnerHTML={createMarkup()} />
+        <p>see changes here</p>
+        <p id="preview" class="preview-area" dangerouslySetInnerHTML={createMarkup()} />
       </div>
     );
   }
