@@ -13,12 +13,13 @@ class Preview extends Component {
     function createMarkup() {
       return { __html: marked(c) };
     }
+    // const output = createMarkup() === null ? '' : createMarkup();
     return (
-      <div class="container preview-container">
+      <div className="container preview-container">
         <h1>Preview</h1>
         <hr />
         <p>see changes here</p>
-        <p id="preview" class="preview-area" dangerouslySetInnerHTML={createMarkup()} />
+        <p id="preview" className="preview-area" dangerouslySetInnerHTML={createMarkup()} />
       </div>
     );
   }

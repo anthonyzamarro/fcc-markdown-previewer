@@ -17,14 +17,29 @@
 		border: 1px solid black;
 		width: 100%;
 	}
+	.clear-btn {
+		float: right;
+	    padding: 4px 12px;
+	    border-radius: 3px;
+	    cursor: pointer;
+	    border: 1px solid black;
+	    &:hover {
+	    	background: #efefef;
+	    }
+	}
 }
 .preview-container {
 	.preview-area {
 		background: #eee;
+		box-shadow: 1px 1px 2px #000;
 	    border: 1px solid black;
 	    border-radius: 3px;
 	    padding: 0 30px;
 		margin: 0px auto;
+		min-width: 250px;
+		max-width: 300px;
+		min-height: 500px;
+		max-height: 550px;
 	}
 }
 

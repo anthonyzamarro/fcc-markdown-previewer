@@ -11,7 +11,7 @@ const store = createStore(rootReducer);
 
 function App() {
   return (
-    <div class="main-container">
+    <div className="main-container">
       <TextArea />
       <Preview />
     </div>

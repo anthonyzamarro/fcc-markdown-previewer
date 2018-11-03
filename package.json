@@ -15,8 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "cypress:open": "cypress open"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,7 +27,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cypress": "^3.1.0",
     "grunt": "^1.0.3",
     "grunt-contrib-cssmin": "^3.0.0"
   }
