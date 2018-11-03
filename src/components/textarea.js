@@ -19,13 +19,14 @@ class TextArea extends Component {
   }
   render() {
     return (
-      <div class="container text-area-container">
+      <div class="container textarea-container">
         <h1>Text Area</h1>
         <hr />
+        <p>Type any <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github Markdown</a></p>
         <textarea
           id="editor"
-          cols="90"
-          rows="40"
+          cols="60"
+          rows="35"
           onChange={this.handleChange.bind(this)}
           value={this.state.val}
         />

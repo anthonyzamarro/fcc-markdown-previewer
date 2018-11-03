@@ -1,7 +1,38 @@
 .main-container {
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .container {
-  padding: 25px;
+  padding: 0 25px;
+  hr {
+  	margin-top: -16px;
+  	margin-bottom: 16px;
+  }
 }
-// code { background: black }
+.textarea-container {
+	textarea {
+		box-shadow: 1px 1px 2px #000;
+		border-radius: 3px;
+		border: 1px solid black;
+		width: 100%;
+	}
+}
+.preview-container {
+	.preview-area {
+		background: #eee;
+	    border: 1px solid black;
+	    border-radius: 3px;
+	    padding: 0 30px;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.main-container {
+		flex-direction: column;
+	}
+	.preview-area {
+		width: 100%;
+	}
+}
