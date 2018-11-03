@@ -8,17 +8,20 @@ class Preview extends Component {
   	marked.setOptions({
   		breaks: true,
   		gfm: true
-  	})
+  	});
+
     let c = this.props.content;
+
     function createMarkup() {
       return { __html: marked(c) };
     }
+
     return (
-      <div class="container preview-container">
+      <div className="container preview-container">
         <h1>Preview</h1>
         <hr />
         <p>see changes here</p>
-        <p id="preview" class="preview-area" dangerouslySetInnerHTML={createMarkup()} />
+        <p id="preview" className="preview-area" dangerouslySetInnerHTML={createMarkup()} />
       </div>
     );
   }
@@ -31,4 +34,3 @@ function mapStateToProps(content) {
 }
 
 export default connect(mapStateToProps)(Preview);
-// export default Preview;

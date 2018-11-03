@@ -5,3 +5,11 @@ export default function userInput(text) {
     payload: text
   };
 }
+
+export function clearArea(clear) {
+	console.log("action is:", clear);
+	return {
+		type: "CLEAR_AREA",
+		payload: clear
+	}
+}
