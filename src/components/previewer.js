@@ -5,6 +5,10 @@ let marked = require('marked');
 
 class Preview extends Component {
   render() {
+  	marked.setOptions({
+  		breaks: true,
+  		gfm: true
+  	})
     let c = this.props.content;
     function createMarkup() {
       return { __html: marked(c) };
