@@ -18,6 +18,7 @@
 ## Technologies Used
 
   The tech. used for this project include:
+  
     - HTML
     - SCSS
     - Flexbox
