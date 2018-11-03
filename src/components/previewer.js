@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import { connect } from "react-redux";
-var marked = require('marked');
+let marked = require('marked');
 
 class Preview extends Component {
   render() {
@@ -26,3 +26,4 @@ function mapStateToProps(content) {
 }
 
 export default connect(mapStateToProps)(Preview);
+// export default Preview;
