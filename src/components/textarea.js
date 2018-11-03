@@ -3,7 +3,6 @@ import { Component } from "react";
 import { connect } from "react-redux";
 import userInput from "../actions/inputAction";
 import clearInput from "../actions/clearAction";
-// import Clear from "./clear";
 
 class TextArea extends Component {
   constructor(props) {
