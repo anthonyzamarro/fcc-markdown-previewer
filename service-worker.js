@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/FCC-Markdown-Previewer/precache-manifest.1bc83a29d834441bb005f0a8f48797f4.js"
+  "/fcc-markdown-previewer/precache-manifest.e5fad20451e22fe7d6d5818369d23d8b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/FCC-Markdown-Previewer/index.html", {
+workbox.routing.registerNavigationRoute("/fcc-markdown-previewer/index.html", {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
