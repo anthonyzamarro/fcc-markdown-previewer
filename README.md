@@ -18,12 +18,13 @@
 ## Technologies Used
 
   The tech. used for this project include:
-    - HTML
-    - SCSS
-    - Flexbox
-    - JavaScript (ES6)
-    - React
-    - Redux
-    - Grunt (css minification)
-    - [Marked.js library](https://marked.js.org/)
-
+  - HTML
+  - SCSS
+  - Flexbox
+  - JavaScript (ES6)
+  - React
+  - Redux
+  - Grunt (css minification)
+  - Git/Github
+  - [Marked.js library](https://marked.js.org/)
+  
