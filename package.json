@@ -1,6 +1,6 @@
 {
   "name": "markdown-previewer",
-  "homepage": "https://anthonyzamarro.github.io/FCC-Markdown-Previewer/",
+  "homepage": "https://anthonyzamarro.github.io/fcc-markdown-previewer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
