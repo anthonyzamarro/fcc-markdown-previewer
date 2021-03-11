@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "marked": "^0.5.1",
+    "marked": "^0.7.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
